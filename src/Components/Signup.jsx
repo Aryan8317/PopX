@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
-// This is to create the account
+// sign up
 export const Signup = () => {
   const [isAgency, setIsAgency] = useState('');
   const navigate = useNavigate();
